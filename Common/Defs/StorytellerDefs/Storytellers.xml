@@ -6,7 +6,7 @@
     <description>ULTIMATE is an AI created by a mad scientists, mixing the personality cores of many storytellers. He uses all tricks in the book, being unpredictable like Randy but keeping you under pressure like Cassandra. However, he is no sadist and will give you ample  opportunity through trade and questing.</description>
     <portraitLarge>Storytellers/Ultimate</portraitLarge>
     <portraitTiny>Storytellers/UltimateTiny</portraitTiny>
-    <listOrder>39</listOrder>
+    <listOrder>80</listOrder>
     <comps>
       <!-- Intro -->
       <li Class="StorytellerCompProperties_ClassicIntro"/>
