@@ -4,9 +4,9 @@
     <defName>UltimateStoryteller</defName>
     <label>U.L.T.I.M.A.T.E</label>
     <description>ULTIMATE is an AI created by a mad scientists, mixing the personality cores of many storytellers. He uses all tricks in the book, being unpredictable like Randy but keeping you under pressure like Cassandra. However, he is no sadist and will give you ample  opportunity through trade and questing.</description>
-    <portraitLarge>Storytellers/Ultimate</portraitLarge>
-    <portraitTiny>Storytellers/UltimateTiny</portraitTiny>
-    <listOrder>80</listOrder>
+    <portraitLarge>UI/Storytellers/Ultimate</portraitLarge>
+    <portraitTiny>UI/Storytellers/UltimateTiny</portraitTiny>
+    <listOrder>300</listOrder>
     <comps>
       <!-- Intro -->
       <li Class="StorytellerCompProperties_ClassicIntro"/>
@@ -24,6 +24,8 @@
         <categoryWeights>
           <Misc>3.5</Misc>
           <ThreatBig>1.4</ThreatBig>
+          <OrbitalVisitor>1.1</OrbitalVisitor>
+          <FactionArrival>2.4</FactionArrival>
           <ThreatSmall>0.6</ThreatSmall>
           <ShipChunkDrop>0.22</ShipChunkDrop>
         </categoryWeights>
@@ -37,7 +39,7 @@
         <minDaysPassed>9</minDaysPassed>
       </li>
       <!-- Recurring threats -->
-      <li Class="StorytellerCompProperties_OnOffCycle">
+      <li Class="StorytellerCompProperties_OnOffCycle"><!-- Is this even working? -->
         <category>ThreatBig</category>
         <minDaysPassed>5.0</minDaysPassed>
         <onDays>4.6</onDays>
@@ -62,7 +64,7 @@
           <minThreatPoints>500</minThreatPoints>
         </parms>
       </li>
-      <li Class="StorytellerCompProperties_OnOffCycle">
+      <li Class="StorytellerCompProperties_OnOffCycle"><!-- Is this even working? -->
         <category>ThreatSmall</category>
         <minDaysPassed>5.0</minDaysPassed>
         <onDays>4.6</onDays>
@@ -125,7 +127,7 @@
         </allowedTargetTags>
       </li>
       <!-- Orbital trader -->
-      <li Class="StorytellerCompProperties_OnOffCycle">
+      <li Class="StorytellerCompProperties_OnOffCycle"><!-- Is this even working? -->
         <incident>OrbitalTraderArrival</incident>
         <onDays>6</onDays><!-- Slightly more often than Cassandra -->
         <offDays>5</offDays>
