@@ -77,20 +77,6 @@
           </points>
         </acceptPercentFactorPerThreatPointsCurve>
       </li>
-      <!-- Home special threats -->
-      <li Class="StorytellerCompProperties_ThreatsGenerator">
-        <allowedTargetTags>
-          <li>Map_RaidBeacon</li>
-        </allowedTargetTags>
-        <parms>
-          <allowedThreats>Raids</allowedThreats>
-          <onDays>1.0</onDays>
-          <offDays>0.5</offDays>
-          <minSpacingDays>0.04</minSpacingDays>
-          <numIncidentsRange>1~2</numIncidentsRange>
-          <minThreatPoints>500</minThreatPoints>
-        </parms>
-      </li>
       <!-- Ally/neutral interaction -->
       <li Class="StorytellerCompProperties_FactionInteraction">
         <incident>RaidFriendly</incident>
