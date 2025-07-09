@@ -1,7 +1,5 @@
 # UltimateStoryteller
-This is a quick update of the https://steamcommunity.com/sharedfiles/filedetails/?id=2557208773 mod for 1.4-1.5. 
-
-The directory structure for the storyteller texture is slightly different and I set it to appear slightly lower compared to my other modded storytellers.
+This is a quick update of the https://steamcommunity.com/sharedfiles/filedetails/?id=2557208773 mod for 1.4-1.6.
 
 Want to make this harder by adding RNG psycasters (from Vanilla Psycasts Expanded) for your pawns and raids? Check out the Basilicus Patch!: https://steamcommunity.com/sharedfiles/filedetails/?id=2928443788
 
