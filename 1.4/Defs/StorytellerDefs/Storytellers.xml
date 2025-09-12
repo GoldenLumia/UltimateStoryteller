@@ -24,8 +24,6 @@
         <categoryWeights>
           <Misc>3.5</Misc>
           <ThreatBig>1.4</ThreatBig>
-          <OrbitalVisitor>1.1</OrbitalVisitor>
-          <FactionArrival>2.4</FactionArrival>
           <ThreatSmall>0.6</ThreatSmall>
           <ShipChunkDrop>0.22</ShipChunkDrop>
         </categoryWeights>
